@@ -33,13 +33,13 @@ SW_PIN_2 = 20
 LED1=machine.Pin(39, machine.Pin.OUT)
 LED2=machine.Pin(40, machine.Pin.OUT)
 
-room1ID="F1A66FC67D14"
-room2ID="FB2C6BB4C8C2"
+room1ID="-"
+room2ID="-"
 
 # open token
-token = 'a924fa8c7b9116973b2f3c846a511d506cece78e4b2c0693c5593272fa773692a0a1ec3851f1335b10c8a70f199b1289'
+token = '-'
 # secret key
-secret = '8fb22b45c0ddd39c0b76d6d09a20a14b' 
+secret = '-' 
 
 host_domain = "https://api.switch-bot.com"
 ver = "/v1.1"

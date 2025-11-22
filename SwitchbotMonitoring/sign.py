@@ -8,9 +8,9 @@ import uuid
 # Declare empty header dictionary
 apiHeader = {}
 # open token
-token = "0104e9268292b4b4272a017347efec2684e5fbd292bc03e785d1becd9726166ccfbe80c189c5b9684eed64123496d5ba"  # copy and paste from the SwitchBot app V6.14 or later
+token = "-"  # copy and paste from the SwitchBot app V6.14 or later
 # secret key
-secret = "5ddf0fc0bd3a7f969ebffd67663ec03b"  # copy and paste from the SwitchBot app V6.14 or later
+secret = "-"  # copy and paste from the SwitchBot app V6.14 or later
 nonce = uuid.uuid4()
 t = int(round(time.time() * 1000))
 string_to_sign = "{}{}{}".format(token, t, nonce)

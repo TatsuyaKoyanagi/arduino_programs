@@ -8,12 +8,8 @@ import utils
 base_url = "https://api.switch-bot.com"
 load_dotenv()
 # tokenとsecretを貼り付ける
-token = os.getenv(
-    "0104e9268292b4b4272a017347efec2684e5fbd292bc03e785d1becd9726166ccfbe80c189c5b9684eed64123496d5ba"
-)  # copy and paste from the SwitchBot app V6.14 or later
-secret = os.getenv(
-    "5ddf0fc0bd3a7f969ebffd67663ec03b"
-)  # copy and paste from the SwitchBot app V6.14 or later
+token = os.getenv("-")  # copy and paste from the SwitchBot app V6.14 or later
+secret = os.getenv("-")  # copy and paste from the SwitchBot app V6.14 or later
 headers = utils.make_request_header(token, secret)
 
 
@@ -81,7 +77,7 @@ if __name__ == "__main__":
 
     # ロックの状態を確認
     device = read_lock_from_json()
-    deviceId = "CF3C03B1250E"
+    deviceId = "-"
     lock_state = get_lock_status(deviceId)["body"]["lockState"]
     # ロックされているならアンロック、アンロックされているならロックする
     if lock_state == "unlocked":
