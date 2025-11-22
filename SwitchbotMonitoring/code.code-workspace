@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "switchbot_viewer",
+			"path": "switchbot_viewer"
+		},
+		{
+			"name": "switchbotviewer",
+			"path": "switchbotviewer"
+		}
+	],
+	"settings": {}
+}
